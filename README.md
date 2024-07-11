@@ -1,4 +1,4 @@
-<h1> Adivina el Número Secreto</h1>
+<h1> Creación de un Encriptador</h1>
 
 - Estado del proyecto: finalizado.
 
