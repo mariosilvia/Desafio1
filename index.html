@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>ENCRIPTADOR DE TEXTO</h1>
+    </header>
+
+    <main>
+        <textarea id="inputText" placeholder="Ingrese el texto aquí..."></textarea>
+        <div>
+            <button onclick="encriptarTexto()">Encriptar</button>
+            <button onclick="desencriptarTexto()">Desencriptar</button>
+            <button onclick="copiarTexto()">Copiar</button>
+        </div>
+        <textarea id="outputText" placeholder="Aqui se muestra el texto encriptado y desencriptado"></textarea>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Mario Alonso Flórez Morales</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
